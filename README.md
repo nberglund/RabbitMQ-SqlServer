@@ -6,7 +6,7 @@ The way it is implemented is by using SQLCLR, .NET running inside the SQL Server
 
 ## Dependencies
 
-A RabbitMQ client for .NET needs to be referenced, and in the lib folder are sub folders for RabbitMQ clients for .NET 3.5 (SQL Server 2005, 2008, 2012) and .NET 4 (SQL Server 2014+) respectively.
+A RabbitMQ client for .NET needs to be referenced, and in the lib folder are sub folders for RabbitMQ clients for [.NET 3.5 (SQL Server 2005, 2008, 2012)][5] and [.NET 4 (SQL Server 2014+)][4] respectively.
 
 ### SQL Server 2005 - 2012 (.NET 3.5)
 
@@ -20,3 +20,5 @@ For SQL Server 2014 and later versions the latest version of [RabbitMQ.Client][3
 [1]: http://www.rabbitmq.com/
 [2]: https://github.com/nberglund/rabbitmq-dotnet-client-3.6.6-stable_net_3.5
 [3]: https://www.nuget.org/packages/RabbitMQ.Client/
+[4]: https://github.com/nberglund/RabbitMQ-SqlServer/tree/master/lib/NET4
+[5]: https://github.com/nberglund/RabbitMQ-SqlServer/tree/master/lib/NET3.5
