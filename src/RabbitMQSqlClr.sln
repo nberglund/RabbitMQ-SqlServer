@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26014.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQSqlClr4", "RabbitMQSqlClr4\RabbitMQSqlClr4.csproj", "{514E56CE-9098-47AA-9C5D-436316737CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQTestApp", "RabbitMQTestApp\RabbitMQTestApp.csproj", "{66CEB622-0C11-4F0C-829D-BE3245D42DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQSqlClr3.5", "RabbitMQSqlClr3.5\RabbitMQSqlClr3.5.csproj", "{89E3AF65-A011-4FA0-961A-264507C3EEDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{514E56CE-9098-47AA-9C5D-436316737CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{514E56CE-9098-47AA-9C5D-436316737CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{514E56CE-9098-47AA-9C5D-436316737CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CEB622-0C11-4F0C-829D-BE3245D42DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CEB622-0C11-4F0C-829D-BE3245D42DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CEB622-0C11-4F0C-829D-BE3245D42DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CEB622-0C11-4F0C-829D-BE3245D42DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E3AF65-A011-4FA0-961A-264507C3EEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E3AF65-A011-4FA0-961A-264507C3EEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E3AF65-A011-4FA0-961A-264507C3EEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E3AF65-A011-4FA0-961A-264507C3EEDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
