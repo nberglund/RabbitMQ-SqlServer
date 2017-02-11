@@ -18,11 +18,11 @@ GO
 SET NOCOUNT ON;
 
 EXEC rmq.pr_UpsertRabbitEndpoint @Alias = 'rabbitEp1',
-								 @ServerName = '10.1.20.57',
+								 @ServerName = 'RabbitServer',
 								 @Port = 5672,
 								 @VHost = 'testHost',
 								 @LoginName = 'rabbitAdmin',
-								 @LoginPassword = 'rabbitAdminPwd',
+								 @LoginPassword = 'some_secret_password',
 								 @Exchange = 'amq.topic',
 								 @RoutingKey = '#',
 								 @ConnectionChannels = 5,

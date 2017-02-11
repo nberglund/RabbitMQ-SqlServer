@@ -17,7 +17,7 @@ GO
 SET NOCOUNT ON;
 
 --set here the connection string, in real life it should be encrypted, but ...
-DECLARE @connString nvarchar(256) = 'server=PCMDb1; database=RabbitMQTest; uid=sa; pwd=!@#$%A1;';
+DECLARE @connString nvarchar(256) = 'server=PCMDb1; database=RabbitMQTest; uid=sa; pwd=secret_stuff';
 
 DECLARE @tb_Setting TABLE(SettingID int, SettingIntValue int, SettingStringValue nvarchar(4000));
 

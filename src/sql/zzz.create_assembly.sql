@@ -12,7 +12,7 @@ DROP ASSEMBLY [System.Threading]
 
 CREATE ASSEMBLY [RabbitMQ.SqlServer]
 AUTHORIZATION rmq
-FROM 'D:\RabbitMQ-SqlServer\src\RabbitMQSqlClr3.5\bin\Release\RabbitMQSqlClr3.5.dll'
+FROM 'w:\documents\visual studio 2017\Projects\RabbitMQVersionTest\Test1\bin\Debug\RabbitMQ.Client.dll'
 WITH PERMISSION_SET = UNSAFE; 
 
 
